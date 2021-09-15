@@ -98,8 +98,8 @@ body {
 }
 .float {
   position: fixed;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   bottom: 40px;
   right: 40px;
   background-color: #25d366;
@@ -11683,6 +11683,11 @@ p {
   line-height: 1.75;
 }
 
+.textos-container {
+  text-shadow: -1px 0 #ffc8006e, 0 1px #ffc8006c, 1px 0 #ffc8008e,
+    0 -1px #ffc800a8;
+}
+
 .page-section {
   padding: 6rem 0;
 }
@@ -11806,9 +11811,9 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: justify;
-  color: rgb(61, 59, 59);
+  color: rgb(88, 88, 88);
 
-  background-image: url("../assets/img/auto4.jpg");
+  background-image: url("../assets/img/auto6.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
