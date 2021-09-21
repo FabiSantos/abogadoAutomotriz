@@ -11929,7 +11929,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: justify;
   color: rgb(88, 88, 88);
-
+  /* background-image: url("../assets/img/auto00.jpeg"); */
   background-image: url("../assets/img/auto6.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
