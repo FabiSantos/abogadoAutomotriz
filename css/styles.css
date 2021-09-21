@@ -167,6 +167,26 @@ body {
     width: 100%;
   }
 }
+
+.float-rrss {
+  /* position: fixed; */
+  width: 100px;
+  height: 100px;
+  bottom: 80px;
+  right: 100px;
+  background-color: #343534;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 10px #999;
+  z-index: 100;
+}
+/* .float-rrss:hover {
+  text-decoration: none;
+  color: #25d366;
+  background-color: #fff;
+} */
 /* [aria-label] {
   position: relative;
   }
@@ -787,6 +807,9 @@ progress {
   .container {
     max-width: 960px;
   }
+  .margin-email {
+    margin-top: -70px;
+  }
 }
 @media (min-width: 1200px) {
   .container-xl,
@@ -795,6 +818,9 @@ progress {
   .container-sm,
   .container {
     max-width: 1140px;
+  }
+  .margin-email {
+    margin-top: -70px;
   }
 }
 @media (min-width: 1400px) {
@@ -805,6 +831,9 @@ progress {
   .container-sm,
   .container {
     max-width: 1320px;
+  }
+  .margin-email {
+    margin-top: -70px;
   }
 }
 .row {
@@ -11810,8 +11839,8 @@ p {
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -11900,7 +11929,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: justify;
   color: rgb(88, 88, 88);
-
+  /* background-image: url("../assets/img/auto00.jpeg"); */
   background-image: url("../assets/img/auto6.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
